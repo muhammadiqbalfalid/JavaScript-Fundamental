@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+    <h1>Registrasi</h1>
+
+    <form id="form-registrasi">
+        <label for="nama">Nama</label>
+        <input type="text" name="nama" id="nama">
+        <br>
+        <label for="umur">Umur</label>
+        <input type="number" name="umur" id="umur">
+        <br>
+        <label for="uang-saku">Uang Saku</label>
+        <input type="number" name="uangSaku" id="uang-saku">
+
+        <br>
+        <button type="button" onclick="register()">Submit</button>
+    </form>
+    
+    <br>
+
+    
+    <p id="error"></p>
+    
+    <p id="warning"></p>
+
+    <table id="table" border="1" widht="100%" >
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Uang Saku</th>
+        </tr>
+    </table>
+
+    <p id="average"></p>
+
+
+    <script src="./script.js"></script>
+</div>
+</body>
+</html>
